@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="/data/resources/lib/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="/data/resources/lib/bootstrap/css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="/data/resources/lib/bootstrap-slider/bootstrap-slider.min.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="/data/resources/lib/colorpicker/css/bootstrap-colorpicker.min.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="/data/options/options.css" media="screen" rel="stylesheet" type="text/css">
+		<title>Workflowy Styler Options</title>
+	</head>
+	<body> 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" style="text-align:center;">
+				<label class="settings-title">
+					Workflowy Styler Options
+				</label>
+				</div> 
+			</div>
+			<hr>
+			<div id="container">
+				<div class="styler-setting col-md-12 col-xs-12">
+					<div class="setting-label col-md-12 col-xs-12">
+						<label>
+							Background Image URL:
+						</label>
+					</div>
+					<div class="col-md-12 col-xs-12">
+						<input id="pageBackgroundImageUrl" class="form-control" type="text"/>
+					</div>
+				</div>
+				<div class="styler-setting col-md-12 col-xs-12">
+					<div class="setting-label col-md-6 col-xs-6">
+						<label>
+							Page Color:
+						</label>
+					</div>
+					<div class="setting-label col-md-6 col-xs-6">
+						<label>
+							Text Color:
+						</label>
+					</div>
+				</div>
+				<div class="styler-setting col-md-12 col-xs-12">
+					<div class="col-md-6 col-xs-6">
+						<input id="pageColor" type="text" value="" class="form-control" />
+					</div>
+					<div class="col-md-6 col-xs-6">
+						<input id="textColor" type="text" value="" class="form-control" />
+					</div>
+				</div>
+				<div class="styler-setting col-md-12 col-xs-12">
+					<div class="setting-label col-md-12 col-xs-12">
+						<label>
+							Page Opacity:
+						</label>
+					</div>
+					<div class="col-md-12 col-xs-12">
+						<input id="pageOpacity" data-slider-id='pageOpacitySlider' type="text"/>
+					</div>
+				</div>
+				<div class="styler-setting col-md-12 col-xs-12">
+					<div class="setting-label col-md-12 col-xs-12">
+						<label>
+							Page Width: 
+						</label>
+					</div>
+					<div class="col-md-12 col-xs-12">
+						<input id="pageWidth" data-slider-id='pageWidthSlider' type="text"/>
+					</div>
+				</div>
+				<div id="actions" class="input-group col-md-12 col-xs-12">
+					<div id="saveSettings" class="btn btn-primary save-settings-btn">
+					  Save Settings
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<script src="/data/resources/lib/jquery/jquery-1.11.3.min.js"></script>
+		<script src="/data/resources/lib/colorpicker/js/bootstrap-colorpicker.min.js"></script>
+		<script src="/data/resources/lib/bootstrap-slider/bootstrap-slider.min.js"></script>
+		<script src="/data/options/chromeApiWrapper.js"></script> 
+		<script src="/data/options/options.js"></script> 
+	</body>
+</html>

@@ -1,0 +1,32 @@
+.centered {
+	position: fixed; 
+	left: 18%;
+}
+.settings-title {
+    position: relative;
+    font-size: 14pt;
+    padding: 20px 0 0 5px;
+} 
+.styler-setting{
+	margin-top: 5px;
+}
+.setting-label{
+	text-align: center;
+} 
+.container{ 
+    width: 330px;
+}
+hr{
+    margin-top: 5px;
+}
+#actions{
+    padding: 20px 0px 20px 0;
+    text-align: center;
+}
+.slider-selection {
+	background: #A9CCEA;
+}
+.save-settings-btn{
+    border-radius: 0 !important;
+    width: 80%;
+}
